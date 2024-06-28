@@ -68,6 +68,7 @@ export default function Home() {
     }
   };
 
+
   return (
     <div className="h-screen flex flex-col justify-center items-center bg-gray-900 gap-y-20">
       <div className="space-y-4">
@@ -99,6 +100,7 @@ export default function Home() {
 
       {transactionHash && (
         <div className="mt-4 text-gray-400">
+            <h6 className="text-2xl text-green-800 mb-3">Transaction Completed 🎉</h6>
           Transaction Hash: {transactionHash}
         </div>
       )}
